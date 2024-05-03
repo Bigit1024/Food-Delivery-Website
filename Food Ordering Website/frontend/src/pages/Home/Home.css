@@ -1,0 +1,17 @@
+/* Home.css */
+
+.animate {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.animated {
+    opacity: 1;
+}
+
+/* Add hover effects */
+.ExploreMenu:hover,
+.FoodDisplay:hover,
+.AppDownload:hover {
+    transform: scale(1.05); /* Zoom in by 5% */
+}
